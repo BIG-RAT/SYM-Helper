@@ -786,7 +786,7 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="387" id="n1X-fV-3EF"/>
                                 </constraints>
                                 <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="a4J-g6-Olf">
-                                    <rect key="frame" x="1" y="371" width="439" height="16"/>
+                                    <rect key="frame" x="1" y="372" width="439" height="15"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="z5d-MN-D7k">
@@ -848,7 +848,7 @@
                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="387" id="yyG-0a-AE8"/>
                                 </constraints>
                                 <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="w48-zE-NFN">
-                                    <rect key="frame" x="1" y="371" width="439" height="16"/>
+                                    <rect key="frame" x="1" y="372" width="439" height="15"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="5yR-dj-aOz">
@@ -1082,7 +1082,7 @@
                                 </connections>
                             </popUpButton>
                             <button translatesAutoresizingMaskIntoConstraints="NO" id="ppd-Nx-iGs">
-                                <rect key="frame" x="24" y="34.5" width="24.5" height="31"/>
+                                <rect key="frame" x="24" y="35" width="24" height="31"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="gear" catalog="system" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="nhR-9d-3rH">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1108,7 +1108,7 @@
                                 </textFieldCell>
                             </textField>
                             <button hidden="YES" toolTip="View Setup-Your-Mac shell script" translatesAutoresizingMaskIntoConstraints="NO" id="0sG-vY-B0n">
-                                <rect key="frame" x="53" y="34.5" width="31" height="31"/>
+                                <rect key="frame" x="53" y="35" width="31" height="31"/>
                                 <buttonCell key="cell" type="square" bezelStyle="shadowlessSquare" image="terminal" catalog="system" imagePosition="only" alignment="center" imageScaling="proportionallyUpOrDown" inset="2" id="up9-Gd-E3a">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
                                     <font key="font" metaFont="system"/>
@@ -1413,7 +1413,7 @@ DQ
                                     <constraint firstAttribute="width" constant="145" id="c5j-KG-Vk9"/>
                                 </constraints>
                                 <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="fV9-oG-gQZ">
-                                    <rect key="frame" x="1" y="388" width="143" height="16"/>
+                                    <rect key="frame" x="1" y="389" width="143" height="15"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="Bst-H9-6Qr">
@@ -2096,15 +2096,15 @@ DQ
                                                 <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="74u-48-mCr">
                                                     <rect key="frame" x="4" y="-2" width="688" height="322"/>
                                                     <clipView key="contentView" drawsBackground="NO" id="zoq-bL-5tw">
-                                                        <rect key="frame" x="0.0" y="0.0" width="688" height="322"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="673" height="322"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <textView identifier="buildings" wantsLayer="YES" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="28C-7p-jXE">
-                                                                <rect key="frame" x="0.0" y="0.0" width="688" height="322"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="673" height="322"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                                <size key="minSize" width="688" height="322"/>
+                                                                <size key="minSize" width="673" height="322"/>
                                                                 <size key="maxSize" width="688" height="10000000"/>
                                                                 <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                             </textView>
@@ -2115,7 +2115,7 @@ DQ
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </scroller>
                                                     <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="axx-1m-nHU">
-                                                        <rect key="frame" x="672" y="0.0" width="16" height="322"/>
+                                                        <rect key="frame" x="673" y="0.0" width="15" height="322"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </scroller>
                                                 </scrollView>
@@ -2165,15 +2165,15 @@ DQ
                                                 <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uLc-rU-dMk">
                                                     <rect key="frame" x="4" y="-2" width="688" height="322"/>
                                                     <clipView key="contentView" drawsBackground="NO" id="zgH-OI-j38">
-                                                        <rect key="frame" x="0.0" y="0.0" width="688" height="322"/>
-                                                        <autoresizingMask key="autoresizingMask"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="673" height="322"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                         <subviews>
                                                             <textView identifier="departments" wantsLayer="YES" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="rbr-34-ZXP">
-                                                                <rect key="frame" x="0.0" y="0.0" width="688" height="322"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="673" height="322"/>
                                                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                                                 <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                                 <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                                                <size key="minSize" width="688" height="322"/>
+                                                                <size key="minSize" width="673" height="322"/>
                                                                 <size key="maxSize" width="688" height="10000000"/>
                                                                 <color key="insertionPointColor" name="textColor" catalog="System" colorSpace="catalog"/>
                                                             </textView>
@@ -2184,7 +2184,7 @@ DQ
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </scroller>
                                                     <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="uwe-V7-Ew6">
-                                                        <rect key="frame" x="672" y="0.0" width="16" height="322"/>
+                                                        <rect key="frame" x="673" y="0.0" width="15" height="322"/>
                                                         <autoresizingMask key="autoresizingMask"/>
                                                     </scroller>
                                                 </scrollView>
@@ -2225,6 +2225,74 @@ DQ
                                                 <constraint firstAttribute="trailing" secondItem="uLc-rU-dMk" secondAttribute="trailing" constant="-1" id="qQ5-cp-BQy"/>
                                                 <constraint firstItem="uLc-rU-dMk" firstAttribute="top" secondItem="qt2-dv-dhm" secondAttribute="bottom" constant="9" id="s2i-jM-IIJ"/>
                                                 <constraint firstAttribute="bottom" secondItem="uLc-rU-dMk" secondAttribute="bottom" constant="-2" id="yFV-8w-w7N"/>
+                                            </constraints>
+                                        </view>
+                                    </tabViewItem>
+                                    <tabViewItem label="positions" identifier="positions" id="YcZ-2e-YuR" userLabel="positions">
+                                        <view key="view" id="6NN-F9-duJ">
+                                            <rect key="frame" x="0.0" y="0.0" width="691" height="352"/>
+                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            <subviews>
+                                                <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" hasHorizontalScroller="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RLP-XP-dgu">
+                                                    <rect key="frame" x="4" y="-2" width="688" height="322"/>
+                                                    <clipView key="contentView" drawsBackground="NO" id="N6U-tw-3OH">
+                                                        <rect key="frame" x="0.0" y="0.0" width="673" height="322"/>
+                                                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                        <subviews>
+                                                            <textView identifier="positions" wantsLayer="YES" importsGraphics="NO" richText="NO" verticallyResizable="YES" spellingCorrection="YES" smartInsertDelete="YES" id="t7a-48-by8">
+                                                                <rect key="frame" x="0.0" y="0.0" width="673" height="322"/>
+                                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                                                <color key="textColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                                                <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                                <size key="minSize" width="673" height="322"/>
+                                                                <size key="maxSize" width="688" height="10000000"/>
+                                                            </textView>
+                                                        </subviews>
+                                                    </clipView>
+                                                    <scroller key="horizontalScroller" hidden="YES" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="CZJ-vj-BPy">
+                                                        <rect key="frame" x="-100" y="-100" width="240" height="16"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                    </scroller>
+                                                    <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="NO" id="9th-Dm-M6M">
+                                                        <rect key="frame" x="673" y="0.0" width="15" height="322"/>
+                                                        <autoresizingMask key="autoresizingMask"/>
+                                                    </scroller>
+                                                </scrollView>
+                                                <textField focusRingType="none" horizontalHuggingPriority="251" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="4jn-rI-h80" userLabel="Enter one position per line:">
+                                                    <rect key="frame" x="4" y="329" width="198" height="19"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="19" id="F7a-Pm-Gge"/>
+                                                    </constraints>
+                                                    <textFieldCell key="cell" lineBreakMode="clipping" title="Enter one position per line:" id="xhn-jr-mpD" userLabel="Enter one position per line:">
+                                                        <font key="font" metaFont="system" size="16"/>
+                                                        <color key="textColor" name="labelColor" catalog="System" colorSpace="catalog"/>
+                                                        <color key="backgroundColor" name="textBackgroundColor" catalog="System" colorSpace="catalog"/>
+                                                    </textFieldCell>
+                                                </textField>
+                                                <button toolTip="fetch all departments from Jamf Pro" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="rUe-BE-f3g">
+                                                    <rect key="frame" x="617" y="327" width="75" height="23"/>
+                                                    <buttonCell key="cell" type="square" title="Fetch" bezelStyle="shadowlessSquare" image="NSTouchBarRefreshTemplate" imagePosition="left" alignment="center" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="hHp-BU-XaX">
+                                                        <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
+                                                        <font key="font" metaFont="system"/>
+                                                    </buttonCell>
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="75" id="FJh-Jc-cz4"/>
+                                                        <constraint firstAttribute="height" constant="23" id="NG7-ir-aNc"/>
+                                                    </constraints>
+                                                    <connections>
+                                                        <action selector="fetch_Action:" target="pYm-xb-CiH" id="saL-rg-MlG"/>
+                                                    </connections>
+                                                </button>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="RLP-XP-dgu" firstAttribute="leading" secondItem="6NN-F9-duJ" secondAttribute="leading" constant="4" id="3p2-Wm-cxZ"/>
+                                                <constraint firstItem="4jn-rI-h80" firstAttribute="top" secondItem="6NN-F9-duJ" secondAttribute="top" constant="4" id="9q8-V0-Gtq"/>
+                                                <constraint firstItem="rUe-BE-f3g" firstAttribute="trailing" secondItem="RLP-XP-dgu" secondAttribute="trailing" id="Dwl-lE-ZKd"/>
+                                                <constraint firstItem="RLP-XP-dgu" firstAttribute="top" secondItem="4jn-rI-h80" secondAttribute="bottom" constant="9" id="Mta-f0-hpU"/>
+                                                <constraint firstItem="rUe-BE-f3g" firstAttribute="centerY" secondItem="4jn-rI-h80" secondAttribute="centerY" id="O16-zF-Bhx"/>
+                                                <constraint firstAttribute="trailing" secondItem="RLP-XP-dgu" secondAttribute="trailing" constant="-1" id="haK-7W-ZMr"/>
+                                                <constraint firstItem="4jn-rI-h80" firstAttribute="leading" secondItem="6NN-F9-duJ" secondAttribute="leading" constant="6" id="r3O-na-yhQ"/>
+                                                <constraint firstAttribute="bottom" secondItem="RLP-XP-dgu" secondAttribute="bottom" constant="-2" id="vcV-AM-Mn4"/>
                                             </constraints>
                                         </view>
                                     </tabViewItem>
@@ -2277,6 +2345,7 @@ DQ
                         <outlet property="pfr_Switch" destination="A49-nG-cHn" id="Ui7-qa-Qlj"/>
                         <outlet property="pfrn_Switch" destination="s8C-Qr-iIS" id="w1v-Xw-62v"/>
                         <outlet property="pfu_Switch" destination="8hy-sJ-aGf" id="dwd-OF-OpV"/>
+                        <outlet property="positions_TextField" destination="t7a-48-by8" id="eEA-HJ-Kd1"/>
                         <outlet property="prn_Switch" destination="I3N-uV-sCy" id="OTy-EC-mrz"/>
                         <outlet property="pu_Switch" destination="aRn-PA-Jaf" id="0i2-3J-JcO"/>
                         <outlet property="scriptSource_TextField" destination="JsP-um-KOm" id="6xB-eB-q6n"/>
@@ -3002,11 +3071,11 @@ Gw
         </scene>
     </scenes>
     <resources>
-        <image name="NSTouchBarRefreshTemplate" width="18" height="21"/>
+        <image name="NSTouchBarRefreshTemplate" width="17" height="20"/>
         <image name="arrow.triangle.2.circlepath" catalog="system" width="18" height="15"/>
         <image name="gear" catalog="system" width="17" height="16"/>
-        <image name="minus" catalog="system" width="14" height="4"/>
-        <image name="plus" catalog="system" width="14" height="13"/>
-        <image name="terminal" catalog="system" width="18" height="14"/>
+        <image name="minus" catalog="system" width="15" height="4"/>
+        <image name="plus" catalog="system" width="15" height="13"/>
+        <image name="terminal" catalog="system" width="19" height="14"/>
     </resources>
 </document>

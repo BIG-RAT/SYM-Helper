@@ -797,6 +797,7 @@ class ViewController: NSViewController, NSTextFieldDelegate, URLSessionDelegate,
             
             setLocation(type: "buildingsListRaw")
             setLocation(type: "departmentListRaw")
+            setLocation(type: "positionListRaw")
             
             iconFix()
             

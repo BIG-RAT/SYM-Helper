@@ -82,6 +82,7 @@ class SettingsVC: NSViewController, NSTextFieldDelegate, NSTextViewDelegate, Sen
     
     @IBOutlet var buildings_TextField: NSTextView!
     @IBOutlet var departments_TextField: NSTextView!
+    @IBOutlet var positions_TextField: NSTextView!
     
     @IBAction func fetch_Action(_ sender: NSButton) {
         spinner_Progress.startAnimation(self)
@@ -100,6 +101,9 @@ class SettingsVC: NSViewController, NSTextFieldDelegate, NSTextViewDelegate, Sen
                     }
                 }
                 switch whichTab {
+                case "positions":
+                    positions_TextField.string = arrayToList(theArray: allObjects)
+                    Settings.shared.dict["positionListRaw"] = positions_TextField.string
                 case "buildings":
                     buildings_TextField.string = arrayToList(theArray: allObjects)
                     Settings.shared.dict["buildingsListRaw"] = buildings_TextField.string
@@ -139,7 +143,8 @@ class SettingsVC: NSViewController, NSTextFieldDelegate, NSTextViewDelegate, Sen
                          SYMSetting(name: "Support", tab: "support"),
                          SYMSetting(name: "Prompt For...", tab: "promptFor"),
                          SYMSetting(name: "Buildings", tab: "buildings"),
-                         SYMSetting(name: "Departments", tab: "departments")]
+                         SYMSetting(name: "Departments", tab: "departments"),
+                         SYMSetting(name: "Positions", tab: "positions")]
     
 //    var settingsDict      = [String:Any]()
     
@@ -272,6 +277,8 @@ class SettingsVC: NSViewController, NSTextFieldDelegate, NSTextViewDelegate, Sen
         // set departments
         Settings.shared.dict["departmentListRaw"] = departments_TextField.string
         
+        // set positions
+        Settings.shared.dict["positionListRaw"] = positions_TextField.string
         
         if validScriptSource != scriptSource_TextField.stringValue {
             validateScript(notificationName: "ok_Button") {
@@ -373,7 +380,10 @@ class SettingsVC: NSViewController, NSTextFieldDelegate, NSTextViewDelegate, Sen
                
             case "departments":
                 Settings.shared.dict["departmentListRaw"] = departments_TextField.string
-               
+                
+            case "positions":
+                Settings.shared.dict["positionListRaw"] = positions_TextField.string
+                
             default:
                 break
             }
@@ -487,6 +497,7 @@ class SettingsVC: NSViewController, NSTextFieldDelegate, NSTextViewDelegate, Sen
         
         buildings_TextField.string = Settings.shared.dict["buildingsListRaw"] as? String ?? ""
         departments_TextField.string = Settings.shared.dict["departmentListRaw"] as? String ?? ""
+        positions_TextField.string = Settings.shared.dict["positionListRaw"] as? String ?? ""
         
         let style = NSMutableParagraphStyle()
         style.alignment = NSTextAlignment.center
@@ -516,7 +527,7 @@ class SettingsVC: NSViewController, NSTextFieldDelegate, NSTextViewDelegate, Sen
         // location
         buildings_TextField.delegate    = self
         departments_TextField.delegate  = self
-        
+        positions_TextField.delegate    = self
         
         settings_AC.add(contentsOf: settingsArray)
         settings_TableView.selectRowIndexes(.init(integer: 0), byExtendingSelection: false)
